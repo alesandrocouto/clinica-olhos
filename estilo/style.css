@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #00E1DE;
+
+    --fonte-padrao: Arial, verdana, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: gray;
+}
+
+header {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 40px 20px ;
+    border-radius: 10px;
+}
+
+header > a {
+    color: var(--cor0);
+    padding: 5px 20px 20px 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    background-color: gray;
+}
+
+img, a {
+    padding-right: 80px;
+    max-width: 500px;
+    margin: auto;
+}
+img {
+    background-color: gray;
+}
+
+.med1 {
+    max-width: 60%;
+}
